@@ -59,7 +59,7 @@ export class AuthService {
       )
   }
 
-  private saveToken(idToken: string) {
+  private saveToken( idToken: string ) {
 
     this.userToken = idToken
     localStorage.setItem( 'token', idToken )
