@@ -30,7 +30,7 @@ export class RegistroComponent implements OnInit {
 
       }, ( err ) => {
 
-        console.log(err.error.error.message)
+        console.log( err.error.error.message )
 
       })
   }
